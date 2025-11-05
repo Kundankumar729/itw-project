@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  background: #fff;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #1b1b1b;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #0056d6;
+}
+
+.btn-book {
+  background: #0056d6;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Section */
+.section-subtitle {
+  color: #0056d6;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: #1b1b1b;
+}
+
+.section-text {
+  text-align: center;
+  color: #555;
+  margin: 1rem auto 2rem;
+  max-width: 600px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Package Cards */
+.package-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.package-card {
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.package-img {
+  width: 35%;
+  object-fit: cover;
+}
+
+.package-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.package-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.package-desc {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.package-info {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.package-price {
+  background: #0056d6;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.package-price h3 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #0056d6;
+}
+
+.view-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  background: #0056d6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f8f8f8;
+  margin-top: 3rem;
+}
