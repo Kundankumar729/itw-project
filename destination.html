@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Popular Destinations | Tourly</title>
+  <link rel="stylesheet" href="destination.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Header (simplified version) -->
+  <header class="header">
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="destination.html" class="active">DESTINATION</a></li>
+        <li><a href="packages.html">PACKAGES</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+      <a href="#" class="btn-book">BOOK NOW</a>
+    </nav>
+  </header>
+
+  <!-- Popular Destination Section -->
+  <section class="destination-section">
+    <p class="section-subtitle">UNCOVER PLACE</p>
+    <h2 class="section-title">POPULAR DESTINATION</h2>
+    <p class="section-desc">
+      Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur, aptent.
+    </p>
+
+    <div class="destination-grid">
+      <!-- Card 1 -->
+      <div class="destination-card">
+        <img src="italy.jpg" alt="Italy">
+        <div class="destination-info">
+          <p class="country">ITALY</p>
+          <h3 class="place">SAN MIGUEL</h3>
+          <p class="desc">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+          <div class="rating">★★★★★</div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="destination-card">
+        <img src="burj khalifa.jpeg" alt="Dubai">
+        <div class="destination-info">
+          <p class="country">DUBAI</p>
+          <h3 class="place">BURJ KHALIFA</h3>
+          <p class="desc">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+          <div class="rating">★★★★★</div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="destination-card">
+        <img src="kyoto temple.jpg" alt="Japan">
+        <div class="destination-info">
+          <p class="country">JAPAN</p>
+          <h3 class="place">KYOTO TEMPLE</h3>
+          <p class="desc">Fusce hic augue velit wisi ips quibusdam pariatur, iusto.</p>
+          <div class="rating">★★★★★</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-btn">
+      <a href="#" class="btn-more">MORE DESTINATION</a>
+    </div>
+  </section>
+
+  <!-- Inquiry Form Section -->
+  <section class="inquiry-section">
+    <form class="inquiry-form">
+      <div class="form-group">
+        <label>Search Destination*</label>
+        <input type="text" placeholder="Enter Destination">
+      </div>
+
+      <div class="form-group">
+        <label>Pax Number*</label>
+        <input type="number" placeholder="No. of People">
+      </div>
+
+      <div class="form-group">
+        <label>Checkin Date*</label>
+        <input type="date">
+      </div>
+
+      <div class="form-group">
+        <label>Checkout Date*</label>
+        <input type="date">
+      </div>
+
+      <button type="submit" class="btn-inquire">INQUIRE NOW</button>
+    </form>
+  </section>
+
+</body>
+</html>
